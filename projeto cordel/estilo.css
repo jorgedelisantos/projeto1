@@ -4,10 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2? family = Monoton & display=swap');
 
+@font-face {
+    font-family:'riso';
+    src: format url('fontes/Laughing and Smiling.ttf') ('true type');
+}
+
+
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
     --fonte2:"Parisienne", cursive;
     --fonte3: "Monoton", cursive;
+    --fonte4: 'riso',cursive
 }
 * {
     margin: 0px; padding: 0px;
@@ -44,7 +51,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte2);
+    font-family: var(--fonte4);
 }
 section.normal{
     background-color: white;
