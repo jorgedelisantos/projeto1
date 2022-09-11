@@ -6,7 +6,7 @@
 
 @font-face {
     font-family:'riso';
-    src:  url('..\fontes\Laughing and Smiling.ttf') format('true type');
+    src:  url('\fontes\Laughing and Smiling.ttf') format('true type');
 }
 
 
@@ -19,7 +19,7 @@
 * {
     margin: 0px;
      padding: 0px;
-
+     font-size: 1em;
 }
 html, body{
     min-height: 100% vh;
@@ -35,6 +35,7 @@ header > h1{
     padding: 50px;
     font-variant: small-caps;
     font-family: var(--fonte3);
+    font-size: 10vw;
 } header > p{
 padding: 50px;
 }
@@ -53,20 +54,37 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte4);
+    font-size:3.5vw;
+}
+section > p{
+    padding-bottom:2em;
 }
 section.normal{
     background-color: white;
     color: black;
-    background-color: wi;
+   
     
 }
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px  0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 }
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+background-image: url(imagens/imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+section#img02{
+background-image: url(imagens/imagens/background002.jpg);
+background-size: cover;
 }
 footer{
     background-color: black;
