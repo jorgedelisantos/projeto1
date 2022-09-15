@@ -5,8 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes</title>
+    <style>
+     table{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 400px;
+        border-collapse: collapse;
+         margin-left:auto;
+         margin-right: auto;
+         margin-top: 50px;
+        }
+        caption{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(157, 192, 192);
+            font-size: 1.2em;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+          } 
+        
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption> População das Unidades Federativas do Brasil</caption>
+        <thead>
+         <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 
+            50px">População</th><!--posso config um style-->
+        </tr>
+          </thead>
+             <tbody>
+         
+        
+      
+            <tr>
+                <td>Acre</td>
+                <td class="num">3.456.789</td>
+               </tr>
+              <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+          </tr>
+          <tr>
+            <td>Rio Janeiro</td>
+            <td class="num">25.654.900</td>
+          </tr>
+         <tr>
+            <td>Minas Gerais</td>
+            <td class="num">70.143.700</td>
+         </tr>
+         <tr>
+            <td>Bahia</td>
+            <td class="num">102.678.00</td>
+         </tr>
+         <tr>
+            <td>ceará</td>
+            <td class="num">300.158.00</td>
+         </tr>
+          <tr>
+            <td>Sergipe</td>
+            <td class="num">109.342.098</td>
+          </tr>
+          <tr>
+            <td>Goiás</td>
+            <td class="num">433.555.897</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+<th scope="row">Total de Habitantes</th>
+<td><strong>fictícios 500 000 000.00</strong></td>
+
+        </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
