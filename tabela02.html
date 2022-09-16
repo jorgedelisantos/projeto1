@@ -27,9 +27,18 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th{
+            position:sticky ;/*faz o cabeçalho colar th*/
+            top: 0;
+            background-color: gray;
+        }
         tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody > tr:nth-child(even){
+            /*odd:impar, even:par, 2n: 2em2, 2n-1 */
+            background-color: lightgray;/*A (nth-child) pseudoclasse é usada apenas com um argumento, que representa o padrão usado para selecionar os elementos.*/
         }
         .num{
             text-align: right;
@@ -72,7 +81,7 @@
             <td class="num">102.678.00</td>
          </tr>
          <tr>
-            <td>ceará</td>
+            <td>Ceará</td>
             <td class="num">300.158.00</td>
          </tr>
           <tr>
@@ -93,5 +102,8 @@
         </tr>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt eos distinctio officiis, dicta ex esse nobis sit labore adipisci? Doloremque repellat expedita animi neque adipisci placeat natus officiis quaerat optio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error quibusdam natus nihil suscipit rerum repudiandae atque aperiam adipisci deleniti tempora, fugit saepe laudantium sapiente eius alias odit dignissimos tenetur!Loremlor Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus aut culpa vitae non eveniet ea, ipsam porro assumenda quam molestias minus. Sed in eligendi repudiandae? Facere quibusdam perferendis ut? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptate laborum nisi. At sint vel itaque, eveniet repellendus facere provident veritatis dolorum asperiores, quo quod quae eos repudiandae autem doloremque.
+    </p>
 </body>
 </html>
