@@ -10,16 +10,24 @@
             border-collapse: collapse;
             width: 600px;
         }
-        td,thead{
-            border: 1px solid black;
+        caption{
+            border: 1px solid #aca8a8;
+            font-size: 30px;
+            background-color: #d8e6e1;
+        }
+        td,th{
+            font-size: 17px;
+            border: 1px solid #c9c5c5;
             padding: 15px;
             text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
     </style>
 </head>
 <body>
     <h1>Desafio em Tabelas </h1>
     <table>
+       
         <tr>
             <td colspan="4">A</td>
             <td rowspan="4">B</td>
@@ -54,57 +62,63 @@
           
         </tr>
     </table>
+
+
     <table>
+        <h1>Tabela com relação de preferências</h1>
+        <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
                <th>Grupos</th>
                <th>Nomes</th>
-               <th>filmes</th>
+               <th colspan="3">filmes</th>
 
             </tr>
         </thead>
+        <tbody>
         <tr>
-            <td rowspan="3">Mulheres</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
+            <th rowspan="3" scope="">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
         </tr>
         <tr>
            
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
         </tr>
         <tr>
-            <td>11</td>
-            <td>12</td>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            <td>Claudia Mello</td>
+            <td>Oblivion</td>
+            <td>Matriz</td>
+            <td>Big Hero</td>
+            
         </tr>
         <tr>
-            <td rowspan="3">Homens</td>
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
+            <th rowspan="3">Homens</th>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
         </tr>
         <tr>
           
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-            <td>25</td>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>OldBoy</td>
+            <td>Dangal</td>
         </tr>
         <tr>
            
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-            <td>30</td>
+            <td>Fabiano Mota</td>
+            <td>StarvWar-5</td>
+            <td>Taxi Driver</td>
+            <td>toy story</td>
         </tr>
+        <tbody>
     </table>
 </body>
 </html>
