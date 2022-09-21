@@ -9,8 +9,11 @@
         table{
           width: 500px;
           border-collapse: collapse;
-          font-weight: bold;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight:normal;
+          font-family:monospace;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top:5%;
         }
         th{
             border: 1px solid rgb(134, 133, 133);
@@ -30,11 +33,11 @@
   <table>
     <thead>
           <tr>
-            <th rowspan="2" scope="rowgroup">Àrea</th>
-            <th rowspan="2" scope="rowgroup">Disciplina</th>
-            <th colspan="2" scope="">Notas</th>
+            <th rowspan="2" scope="col">Àrea</th>
+            <th rowspan="2" scope="col">Disciplina</th>
+            <th colspan="2" scope="" scope="colgroup">Notas</th>
            
-            <th rowspan="2">Médias</th>
+            <th rowspan="2" scope="col">Médias</th>
           </tr>
           <tr>
             
@@ -45,7 +48,7 @@
           </tr>
           <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>9.0</td>
                 <td>5.0</td>
@@ -72,11 +75,11 @@
                 <td>9.8</td>
                 </tr>
                 <tr>
-                    <th colspan="4" class="media">Médias de Exatas</th>
+                    <th colspan="4" class="media" scope="row">Médias de Exatas</th>
                     <th>0000</th>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
                     <td>História</td>
                     <td>9.0</td>
                     <td>7.4</td>
@@ -90,7 +93,7 @@
                     
                 </tr>
                 <tr>
-                    <th colspan="4" class="media">Médias de Humanas</th>
+                    <th colspan="4" class="media" scope="row">Médias de Humanas</th>
                    <th>00000</th>
                  </tr>   
                    
