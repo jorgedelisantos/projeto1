@@ -7,7 +7,7 @@
     font-weight:normal;
 }
 
-
+/* :root = pseudo classe*/
 :root{
     --cor0:#163d33;
     --cor1:#4f6b64;
@@ -35,13 +35,14 @@ a.externo::after{
 
 header{
    background-image:linear-gradient(to bottom, var(--cor4),var(--cor0));
+   
   min-height: 150px;
   text-align:center;
   padding-top: 40px;
   
 }
 header > h1{
-    color:rgba(255, 247, 247, 0.815);
+color:rgba(255, 247, 247, 0.815);
 font-family:'curso';
 margin-bottom: 15px;
 font-size: 2em;
@@ -52,6 +53,10 @@ font-weight: normal;
 header > p {
     color: #8b8686;
     font-size: 1.2em;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 nav{
     background-color: var(--cor0);
