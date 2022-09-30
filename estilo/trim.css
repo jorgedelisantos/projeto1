@@ -35,7 +35,7 @@ a.externo::after{
 
 header{
    background-image:linear-gradient(to bottom, var(--cor4),var(--cor0));
-   
+   min-width: 550px;
   min-height: 150px;
   text-align:center;
   padding-top: 40px;
