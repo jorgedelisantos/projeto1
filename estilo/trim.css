@@ -35,10 +35,9 @@ a.externo::after{
 
 header{
    background-image:linear-gradient(to bottom, var(--cor4),var(--cor0));
-   max-width: 1000px;
-  min-height: 150px;
-  text-align:center;
-  padding-top: 40px;
+   min-height: 150px;
+   text-align:center;
+   padding-top: 40px;
   
 }
 header > h1{
@@ -60,7 +59,6 @@ header > p {
 }
 nav{
     background-color: var(--cor0);
-    max-width: 1000px;
     padding: 15px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
 }
@@ -106,10 +104,10 @@ text-indent: 25px;
 
 }
 main p{
-    margin:15px 0px ;
+    margin:15px;
     text-align: justify;
     text-indent: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 2em;
 }
 main strong{
@@ -175,17 +173,10 @@ main img.fotomenor{
         padding: 10px;
         border-radius: 10px 10px 0px 0px;
     }
-        
-
-    
-   
-    
-   
-footer{
+    footer{
     
     background-color: var(--cor0);
     color: white;
-    max-width: 1000px;
     padding: 10px;
     font-size: 1em;
     text-align: center;
