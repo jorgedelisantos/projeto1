@@ -16,7 +16,7 @@ body, html{
 }
 
 body{
-    background: black url(../back-phone.jpg) no-repeat;
+    background: black url(/mediaquery/ex003/imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
