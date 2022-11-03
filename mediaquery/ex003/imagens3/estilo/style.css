@@ -3,14 +3,14 @@
 /*Versão para MOBILE FIRST*/
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size:1em;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 body, html{
-    width: 100v;
+    width: 100vw;
     height: 100vh;
 
 }
