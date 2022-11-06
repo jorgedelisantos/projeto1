@@ -15,7 +15,13 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-
+#mburg{
+    color: white;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
 menu{
     display: block;
 }
