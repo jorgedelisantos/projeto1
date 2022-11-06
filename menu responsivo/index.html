@@ -14,8 +14,8 @@
 <body>
     <header>
       <h1>Testando Menu</h1>
-      <span id="mburg" class="material-icons">&#9776;</span>
-      <menu>
+      <span id="mburg" class="material-icons" onclick="clickMenu()">&#9776;</span>
+      <menu id="imenu">
           <ul>
             <li><a href="#">Pagina 1</a></li>
             <li><a href="#">Pagina 2</a></li>
@@ -34,6 +34,15 @@
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim eius ipsum reiciendis itaque quam animi omnis commodi? Molestiae exercitationem excepturi laudantium optio. Eum, qui. Optio dolore saepe ratione inventore accusamus!</p>
         </article>
     </main>
-
+<script>
+  function clickMenu() {
+  if (imenu.style.display == 'block') {
+    imenu.style.display = 'none'
+}else{
+  imenu.style.display = 'block'
+}
+}  
+  
+</script>
 </body>
 </html>
