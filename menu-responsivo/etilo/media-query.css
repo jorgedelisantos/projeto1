@@ -2,14 +2,17 @@
 
 @media screen and (min-width: 768px) {
 
-    #mburg{ 
+    span#mburg{ 
         display: none;
     }
-    menu {
+    menu{
         display: block;
     }
     menu > ul > li {
         display: inline-block;
 
+    }
+    main{
+        width: 768px;
     }
 }
