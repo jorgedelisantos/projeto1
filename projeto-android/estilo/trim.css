@@ -21,8 +21,9 @@
     }
    
 *{/*config global para todos os elemntos*/
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
    
 body{
