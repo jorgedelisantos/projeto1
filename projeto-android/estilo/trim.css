@@ -21,6 +21,7 @@
     }
    
 *{/*config global para todos os elemntos*/
+    font-size: 1em;
     margin:0px;
     padding:0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -158,6 +159,7 @@ main img.fotomenor{
       } 
     
    aside{
+    
         background-color: var(--cor4);
         padding:10px;
         border-radius: 10px;
