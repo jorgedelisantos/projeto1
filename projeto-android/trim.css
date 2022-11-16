@@ -39,7 +39,7 @@ a.externo::after{
 
 header{
    background-image:linear-gradient(to bottom, var(--cor4),var(--cor0));
-   min-width: 556px;
+   width: 100%;
    min-height:150px;
    text-align:center;
    padding-top: 40px;
@@ -63,6 +63,7 @@ header > p {
 
 }
 nav{
+    width: 100%;
     background-color: var(--cor0);
     padding: 15px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
