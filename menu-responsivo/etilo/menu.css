@@ -19,7 +19,7 @@ header > h1{
     color: white;
     background-color: rgb(37, 36, 36);
     text-align: center;
-    display: block;
+    display:block;
     padding: 10px;
     cursor:pointer;
 }
@@ -27,14 +27,18 @@ header > h1{
 background-color: rgb(160, 160, 160);
 }
 menu{
-    display:none;
-}
+    display:block;
+
+    
+ }  
+    
+
 menu > ul{
     list-style-type:none;
 }
 menu > ul > li > a{
     color: white;
-    display: block;
+    display:block;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -43,7 +47,7 @@ menu > ul > li > a{
 }
 menu > ul > li >a:hover{
     background-color: rgb(102, 100, 100);
-}
+    }
 main{
     width: 90vw;
     background-color: white;
