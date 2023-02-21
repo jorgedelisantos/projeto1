@@ -13,10 +13,11 @@
     </style>
 </head>
 <body>
-    <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
 
-        <section>
+    <h1>Meu Primeiro Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+
+       
             <p><label for="inome"> nome:</label>
                <input type="text" name="nome" id="inome"> </p>
             
@@ -24,7 +25,11 @@
              <input type="text" name="sobrenome" id="isobrenome"></p>
             
               <p> <input type="submit" value="Enviar"> </p>
-        </section>
+      
     </form>
+<?php 
+$nome = $_GET["nome"];
+echo "meus arquivos";
+?>
 </body>
 </html>
